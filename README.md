@@ -26,6 +26,6 @@ Se modifico el nombre del title a: JJHH Style - Ayuda
 
 
 Se aplico "extend" en la pagina "main.scss"
-Se aplico "MAPS" y "mixin" en la pagina "Desktop.scss"
+Se aplico "MAPS" , "mixin" y "operaciones" en la pagina "Desktop.scss"
 
 
