@@ -102,18 +102,12 @@ body{
     .otrasMarcas{
 
 
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
+        @extend.seccion_Jordan;
 
 
         .otrasImagZapatilla{
 
-            margin-top: 40PX;
-            width: 410px;
-            height: auto;
-            border-radius: 10px;
-            border: solid black 5px;
+           @extend.cajaJordan1;
         }
     
     }
@@ -281,7 +275,8 @@ body{
         li{
             
             a{
-                color: greenyellow;
+              text-decoration: none;
+              color: rgb(236, 214, 185);
                 }
         }
 

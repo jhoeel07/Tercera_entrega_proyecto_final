@@ -11,6 +11,13 @@
          "nav_secu nav_secu nav_secu";
 
     }
+    .d-flex{
+
+        width: 100%;
+    }
+    .btn{
+        width: 25%;
+    }
 
     button{
         background: rgb(0,0,0);
@@ -259,7 +266,8 @@
 
                 border-color: chartreuse;
                 transform: scale(1.1);
-                z-index: 30;
+                // aca se utilizaaa la OPERACION MULTIPLICAR POR UNA VARIBLE DEFINIDA EN _VARIABLES.SCSS
+                z-index:$tamanio*3;
          
             }
         }
@@ -280,7 +288,8 @@
 
                     border-color: chartreuse;
                     transform: scale(1.1);
-                    z-index: 30;
+                       // aca se utilizaaa la OPERACION MULTIPLICAR POR UNA VARIBLE DEFINIDA EN _VARIABLES.SCSS
+                    z-index:$tamanio*3;
             
                 }
 

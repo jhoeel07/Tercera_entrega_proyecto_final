@@ -30,9 +30,10 @@
         border-right: solid #000;
         background-image:$imagenFondo-Segundo-Menu;
 
+        // aca se utiliza la Variable tamañoo como operacion *
         button{
             margin: 20px 0px 20px 0px;
-            z-index: 10;
+            z-index: $tamanio*2;
             border-radius: 0;
             font-size: 20px;
             height: 50px;
