@@ -179,7 +179,7 @@ body{
     
     }
 
-    /*-----------------parte de la Pagina de la info-------------------*/
+    /*-----------------parte de la Pagina de la info o PAGINA AYUDAAAAA-------------------*/
 
     .texto_info{
 
@@ -199,6 +199,7 @@ body{
 
     .trabaja_con_nosotros{
         margin-top: 20px;
+        background-attachment: fixed;
         background-image: url("../imag/gif/cielo-estrellado.gif");
 
         .listaPuestosDisp{
@@ -206,7 +207,34 @@ body{
             list-style: none;
         }
     }
-    
+
+    .Formulario2{
+
+        padding: 20px;
+
+        background-attachment: fixed;
+        background-image: url("../imag/menu/fondo_formulario.jpg");
+
+        p{
+            color: rgb(255, 255, 255);
+            font-size: larger;
+        }
+
+
+    }
+    .trabaja_con_nosotros{
+        background-attachment: fixed;
+        background-image: url("../imag/menu/fondo_formulario.jpg");
+
+        p{
+            font-size: larger;
+            color: rgb(255, 255, 255);
+        }
+
+    }
+
+
+
 
 
 }
